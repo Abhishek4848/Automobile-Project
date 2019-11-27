@@ -4,7 +4,7 @@ import os
 import sys
 import matplotlib.pyplot as plt
 import time
-df=pd.read_csv("C:\\Abhi\\python\\Automobile_proj\\Automobile_data.csv")
+df=pd.read_csv("Automobile_data.csv")
 text="**************************Welcome**************************"
 for i in range(len(text)):
         print (text[i],sep=' ',end=' ',flush=True),sleep(0.01)
